@@ -1,21 +1,27 @@
 .grid-container{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    gap: 1em;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    text-align: center;
 }
 .container{
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(56, 56, 61);
     color: white;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.5rem;
+    width: 400px;
+    height: 250px;  
+    position: static
+    display: ;
 }
 h2{
-    color: black;
+    color: white;
     margin-top: 10px;
     font-family: 'Times New Roman';
     font-size: large;
-    position: relative;;
+   
+    
 }

@@ -1,1 +1,1 @@
-let
+console.log('hello world')
