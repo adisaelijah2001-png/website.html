@@ -1,27 +1,31 @@
-.grid-container{
-    width: 400px;
-    height: 400px;
-    justify-content: center;
-    align-content: center;
-    background-color: black;
-    text-align: center;
+
+
+.product-card{
+    width: 300px;
+    background-color: rgb(187, 121, 121);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(5, 3, 3, 0.1);
+    padding: 20px;
+    transform: transform 0.3s ease;
+    cursor: pointer;
 }
-.container{
-    padding: 10px;
-    background-color: rgb(56, 56, 61);
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    width: 400px;
-    height: 250px;  
-    position: static
-    display: ;
+.product-card:hover {
+    transform: translateY(-5px);
 }
-h2{
+
+.btn{
+    background-color: orange; /* Green */
+    border: none;
     color: white;
-    margin-top: 10px;
-    font-family: 'Times New Roman';
-    font-size: large;
-   
-    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transform: transform 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: translateY(-5px);
 }
