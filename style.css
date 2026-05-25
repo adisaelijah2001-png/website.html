@@ -24,7 +24,7 @@
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    padding: 10px;
+    padding-top: 20px;
 }
 .menu{
     float: left;
@@ -41,7 +41,7 @@ ul li{
     list-style-type: none;
     margin-left: 70px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 17px;
 } 
 ul li a{
     text-decoration: none;
@@ -53,7 +53,7 @@ ul li a:hover{
 }
 .search{
     float: right;
-    width: 250px;
+    width: 300px;
     height: 70px;
     margin-left: 20px;
 }
@@ -68,7 +68,7 @@ ul li a:hover{
     color: white;
     height: 40px;
     border-radius: 5px 0 0 5px;
-    width: 300px;
+    width: 200px;
     padding-left: 10px;
 }
 .btn{
@@ -82,5 +82,64 @@ ul li a:hover{
     width: 80px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-right: 10px;
+    margin-left: -5px;
 }
+.btn:hover{
+    background: white;
+    color: orange;
+}
+.content{
+    width: 1200px;
+    height: 400px;
+    margin: 20px;
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.content h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+.change_content{
+    color: orange;
+    font-size: 25px;
+}
+.cn{
+    font-size: 17px;
+    border: none;
+    margin-top: 20px;
+    padding: 7px;
+    background: orange;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.cn:hover{
+    background: white;
+    color: orange;
+    transform: scale(1.1);
+}
+@media (max-width: 1200px){
+    .main{
+        height: 100vh;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
