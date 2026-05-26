@@ -71,6 +71,11 @@ ul li a:hover{
     width: 200px;
     padding-left: 10px;
 }
+::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .btn{
     font-size: 17px;
     border: none;
@@ -132,18 +137,18 @@ ul li a:hover{
     transition: 0.5s ease;
 }
 .form{
-    width: 250px;
+    width: 220px;
     height: 320px;
     background: rgb(0, 0, 0);
     padding: 20px;
     position: absolute;
     top: 100px;
-    left: 900px;
+    left: 1000px;
     border-radius: 10px;
         display: inline-block;
 }
 .form h2{
-    width: 220px;
+    width: 180px;
     background-color: rgb(255, 255, 255);
     padding: 8px;
     margin-bottom: 5px;
@@ -155,19 +160,64 @@ ul li a:hover{
     border-radius: 10px;
 }
 .form input{
-    width: 240px;
-    height: 40px;
+    width: 190px;
+    height: 29px;
    background: transparent;
     border-bottom: 1px solid orange;
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-top: 20px;
     color: white;
-    font-size: 17px;
+    font-size: 15px;
+    align-items: center;
+     margin-bottom: 20px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    width: 100%;
+    height: 30px;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   margin-top: -10px;
+}
+.submit:hover{
+    background: white;
+    color: orange;
+    transition: 0.5s ease;
+}
+.link{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.link a{
+    color: orange;
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.liw{
+   color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.mang{
     
 }
-
 @media (max-width: 1200px){
     .main{
         height: 100vh;
