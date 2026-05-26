@@ -132,13 +132,40 @@ ul li a:hover{
     transition: 0.5s ease;
 }
 .form{
-    width: 300px;
-    height: 70px;
-    background: rgba(0,0,0,0.5);
+    width: 250px;
+    height: 320px;
+    background: rgb(0, 0, 0);
     padding: 20px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
     border-radius: 10px;
+        display: inline-block;
+}
+.form h2{
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-bottom: 5px;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.form input{
+    width: 240px;
+    height: 40px;
+   background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     margin-top: 20px;
-   dislay:
+    color: white;
+    font-size: 17px;
+    
 }
 
 @media (max-width: 1200px){
