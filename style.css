@@ -9,6 +9,11 @@
     background-size: cover;
     height: 109vh;
 }
+section{
+    width: 100%;
+    height: 100vh;
+}
+
 .navbar{
     width: 1200px;
     height: 70px;
