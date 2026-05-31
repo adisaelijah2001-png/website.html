@@ -231,13 +231,11 @@ ul li a:hover{
     margin: auto;
     color: white;
     padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-left: auto;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     justify-content: center;
+    ilign-items: center;
+
 }
 .about h1{
     font-size: 40px;
