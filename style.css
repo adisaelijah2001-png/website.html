@@ -234,7 +234,7 @@ ul li a:hover{
     background-color: rgba(20, 18, 18, 0.5);
     text-align: center;
     justify-content: center;
-    ilign-items: center;
+    align-items: center;
 
 }
 .about h1{
@@ -254,12 +254,12 @@ ul li a:hover{
         height: 100vh;
     }
     .navbar{
-        width: 100%;
+        width: min(100% - 40px, 1200px);
     }
     .content{
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 20px 0;
     }
     .footer{
         width: 100%;
@@ -272,3 +272,80 @@ ul li a:hover{
         margin-top: 20px;
         font-weight: bold;
     }
+}
+
+@media (max-width: 768px){
+    .main{
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .icon,
+    .menu,
+    .search{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        float: none;
+        display: block;
+        padding-top: 15px;
+    }
+    ul{
+        float: none;
+        flex-wrap: wrap;
+        gap: 12px 24px;
+        padding: 15px 0;
+    }
+    ul li{
+        margin: 0;
+    }
+    .search{
+        display: flex;
+        margin: 0;
+    }
+    .srch{
+        flex: 1;
+        width: auto;
+        margin-top: 0;
+    }
+    .btn{
+        flex: 0 0 80px;
+        margin-top: 0;
+    }
+    .content{
+        width: auto;
+        margin: 0;
+        padding: 80px 20px 30px;
+    }
+    .content h1{
+        font-size: clamp(30px, 9vw, 40px);
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .form{
+        position: static;
+        width: min(220px, calc(100% - 40px));
+        margin: 0 auto;
+        box-sizing: content-box;
+    }
+}
+
+@media (max-width: 400px){
+    .content{
+        padding-top: 55px;
+    }
+    .change_content,
+    .link,
+    .liw{
+        font-size: 18px;
+    }
+}
